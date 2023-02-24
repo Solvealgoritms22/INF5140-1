@@ -1,4 +1,4 @@
-//package inputvariables;
+package prueba;  //<--- se debe crear un directorio para que esto funcione
 import java.util.Scanner;
 
  public class InputVariables {
