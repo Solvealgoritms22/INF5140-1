@@ -1,4 +1,4 @@
-package prueba; 
+package prueba;  //<--- se debe crear un directorio para que esto funcione
 
 public class StringOperations_v2 {
 
