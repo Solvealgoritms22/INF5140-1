@@ -1,4 +1,4 @@
-//package agechecker;
+package prueba;  //<--- se debe crear un directorio para que esto funcione
 import java.util.Scanner;
 public class AgeChecker {
 public static void main(String[] args) {
