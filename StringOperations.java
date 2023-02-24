@@ -1,4 +1,4 @@
-//package stringoperations;  <--- se debe crear un directorio para que esto funcione
+package prueba;  //<--- se debe crear un directorio para que esto funcione
 
 public class StringOperations {
 
