@@ -1,4 +1,4 @@
-//package stringoperations;  <----- Mal uso de package, de este modo no deja correr el programa
+//package stringoperations;  <--- se debe crear un directorio para que esto funcione
 
 public class StringOperations {
 
