@@ -6,6 +6,7 @@ public class POO {
         
         Usuario usuario1 = new Usuario();
         Scanner scanner = new Scanner(System.in);
+        do{ 
         int opcion;
         String nombre, apellido;
 
@@ -22,16 +23,20 @@ public class POO {
                 apellido = scanner.next();
                 usuario1.setNombre(nombre);
                 usuario1.setApellido(apellido);
-                System.out.println("Usuario ingresado exitosamente!");
+                System.out.println("\nUsuario ingresado exitosamente!");
+                opcion = 0;
+                //System.in.read();
                 break;
             case 2:
                 System.out.println("------------------");
                 System.out.println("Información del usuario: ");
                 System.out.println("Nombre: " + usuario1.getNombre());
                 System.out.println("Apellido: " + usuario1.getApellido());
+                //System.in.read();
                 break;
         }
-    }
+     }while(true);
+   }
 }
 
 class Usuario {
@@ -41,7 +46,7 @@ class Usuario {
 
     // getter y setter
   public String getNombre() {
-    return nombre;
+    return this.nombre;
   }
 
   public void setNombre(String nombre) {
@@ -49,7 +54,7 @@ class Usuario {
   }
 
   public String getApellido() {
-    return apellido;
+    return this.apellido;
   }
 
   public void setApellido(String apellido) {
